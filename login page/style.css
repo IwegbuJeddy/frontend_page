@@ -1,0 +1,153 @@
+body{
+    background-image: url('C:/Users/Iwegbu Jeddy/Pictures/-5907819711872216194_121.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#show {
+    width:20%;
+    height:20px;
+}
+#hide {
+    float:right;
+    color:red;
+    background-color: white;
+    border:1px solid grey;
+    font-size: 24px;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    
+}
+#hide:hover {
+    color:blue;
+}
+#content {
+    width:100%;
+    text-align:center;
+}
+#omnibox {
+     height:700px;
+     width:500px;
+     background-color: black;
+     top:3%;
+     right:30%;
+     position: absolute;
+     opacity: 75%;
+     border-radius: 10px;
+     display: none;
+     transition: 2s ease-in;
+     
+
+     
+}
+
+input {
+    position:relative;
+    width: 90%;
+    height:30px;
+    margin:5px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    border-bottom: 2px solid purple;
+    color: white;
+    
+}
+h1 {
+    font-family: Calibri;
+    font-size:50px;
+    font-weight:bold;
+    color:white;
+}
+h3{
+    font-family: Calibri;
+    font-weight: lighter;
+    color:white;
+    margin:100px;
+}
+p{
+    color:white;
+    font-family:Calibri;
+    padding:5px;
+    text-align: center;
+}
+#show {
+    height:50px;
+    width:130px;
+    border:none;
+    border-radius:10px;
+    background-color: blueviolet;
+    color:#ffffff;
+    font-family: Calibri;
+    font-weight:lighter;
+    font-size:20px;
+}
+#pp1 {
+    width: 95%;
+    height:30px;
+    background-color: purple;
+    border:none;
+    border-radius: 10px;
+    margin:10px;
+    color:white;
+    
+
+}
+#pp1:hover {
+    background-color: blueviolet;
+}
+.social-btn {
+    display: flex;
+    padding-left: 20px;
+    
+    
+}
+.share{
+    border-radius: 40px;
+    height:60px;
+    width: 60px;
+    font-size:25px;
+    font-family: Calibri;
+    
+}
+#facebook {
+    background-color: blue;
+    color:rgb(255, 255, 255);
+    font-weight:bolder;
+    font-size:40px;
+    font-family: Calibri;
+    border:3px solid blue;
+    margin-left:133.3px;
+}
+#google {
+    background-color: white;
+    color:black;
+    font-weight:bolder;
+    font-family: Calibri;
+    border: none;
+    font-size:40px;
+    
+    
+    
+}
+#apple {
+    margin-left: 10px;
+    color:rgb(0, 0,0);
+    font-weight:bolder;
+    border:3px solid #ffffff;
+    margin-left: 133.3px;
+    background-color: #ffffff;
+    font-size:40px;
+    
+}
+mark{
+    background-color: purple;
+    color: rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    color:purple;
+}

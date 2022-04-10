@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <title>Frontend login page</title>
+    <link rel="stylesheet" type="text/css" href="C:/Users/Iwegbu Jeddy/Documents/WebstormProjects/login page/style.css">
+    <link rel="stylesheet" type="text/css" href="C:/Users/Iwegbu Jeddy/Documents/animate.css">
+    <meta name="viewport" width="device-width"  initial-scale="1.0">
+
+
+    <script type="text/javascript" src="C:/Users/Iwegbu Jeddy/Documents/WebstormProjects/login page/script.js"></script>
+</head>
+<body>
+
+    <div id="content">
+    <h1>Streaming just got <mark>better</mark>, and <mark>cheaper</mark> too</h1>
+    <h3> With the latest technology, Doli offers you an all immersive streaming experience </h3>
+    <button id="show" onclick="show_login();"> Sign up now !</button>
+    </div>
+
+    <div id="omnibox" class="animate_fadeIn">
+       <button id="hide" id="hider" onclick="hide_login();">X</button>
+            <p>Name</p>
+            <input type="text" placeholder="First Name" id="firstnm">  </input>
+            <input type="text" placeholder="Last Name" id="lastnm"> Last Name </input>
+            <p>Email</p>
+            <input type="email" placeholder="Email" id="emil">
+            <p>Phone number</p>
+            <input type="tel" placeholder="Phone number">
+            <p>Password</p>
+            <input type="password" placeholder="Create Password" id="pwd1" >
+            <input type="password" placeholder="Confirm Password" id="pwd2">
+            <input type = "submit" id="pp1" onclick="validate();" value="Sign Up"> Sign Up </button>
+        <div class="social-btn">
+            <button id="google" class="share"> G</buttton>
+            <button id="facebook" class="share"> f</buttton>
+            <button id="apple" class="share">🍎</button>
+        </div>    
+            <p>Have an account? <a href="#">Log in</a></p>
+            
+            
+    </div>
+</body>
+</html>
